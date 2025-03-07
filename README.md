@@ -4,7 +4,7 @@ Python script for converting whisper.cpp JSON transcripts to Podlove Web Player 
 
 ## Usage
 
-Create a whisper.cpp JSON transcript file, e.g.:
+Create a [whisper.cpp](https://github.com/ggerganov/whisper.cpp) JSON transcript file, e.g.:
 
 ```command
 $ ./main -m models/ggml-large-v1.bin -l de --output-json my_file.wav
